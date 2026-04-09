@@ -299,3 +299,45 @@ python3 --version
 node -v && npm -v
 duckmind --version
 ```
+
+# Bắt đầu sử dụng DuckMind CLI
+
+Sau khi cài đặt, mở terminal và chạy:
+```bash
+duckmind
+```
+CLI sẽ khởi động vào chế độ tương tác.
+
+---
+
+### Kết nối Model
+
+Trong CLI, gõ:
+```bash
+/connect
+```
+Chọn **provider** DuckMind từ danh sách hiển thị
+
+### Nhập API Key
+
+Sau khi chọn provider, CLI sẽ yêu cầu:
+
+Enter API key:
+
+Dán API key của bạn và nhấn Enter.
+
+
+### Chọn Model
+
+DuckMind có hai chế độ:
+
+Smart
+Deep
+
+- **Smart**: nhanh, tiết kiệm tokens, phù hợp cho hầu hết tác vụ  
+- **Deep**: suy luận sâu, dùng cho nhiệm vụ phức tạp
+
+Khuyến nghị:
+
+Ưu tiên chọn Smart để giảm chi phí tokens.
+Chỉ dùng Deep khi cần reasoning sâu.
