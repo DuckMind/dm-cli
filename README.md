@@ -321,23 +321,24 @@ Chọn **provider** DuckMind từ danh sách hiển thị
 ### Nhập API Key
 
 Sau khi chọn provider, CLI sẽ yêu cầu:
-
-Enter API key:
-
+```bash
+Enter API key: sk-xxxx
+```
 Dán API key của bạn và nhấn Enter.
 
 
 ### Chọn Model
 
-DuckMind có hai chế độ:
-
+DuckMind có 4 chế độ:
+Free
+Lite
 Smart
 Deep
 
-- **Smart**: nhanh, tiết kiệm tokens, phù hợp cho hầu hết tác vụ  
+- **Lite**: nhanh,tiết kiệm tokens.
+- **Smart**: nhanh, thông minh, phù hợp cho hầu hết tác vụ  
 - **Deep**: suy luận sâu, dùng cho nhiệm vụ phức tạp
 
-Khuyến nghị:
+**Khuyến nghị:**
 
-Ưu tiên chọn Smart để giảm chi phí tokens.
-Chỉ dùng Deep khi cần reasoning sâu.
+Ưu tiên chọn Smart. Chỉ dùng Deep khi cần reasoning sâu.
