@@ -93,31 +93,9 @@ Sau khi chạy xong, **khởi động lại máy**.
 3. Chọn **Ubuntu 24.04.1 LTS** rồi bấm **Get** hoặc **Install**.
 4. Chờ tải xong (khoảng vài trăm MB).
 
-### Bước 3 - Cài đặt Tabby trên Windows để gõ được Tiếng Việt trên cửa sổ Terminal (Tùy chọn)
-
-Mở **PowerShell** với *quyền Administrator* chạy:
-
-```powershell
-winget install Eugeny.Tabby
-```
-
-Thêm profile Ubuntu WSL
-
-Sau khi mở Tabby:
-	1.	Nhấn nút ⚙️ Settings ở góc trên phải.
-	2.	Vào Profiles & connections → chọn + New profile.
-	3.	Chọn loại Local terminal.
-	4.	Ở mục Shell, chọn WSL / Ubuntu (Tabby sẽ tự nhận các distro đã cài).
-	5.	Đặt tên profile, ví dụ: Ubuntu WSL.
-	6.	Nhấn Save.
-
-Sau đó:
-	1.	Nhấn nút + trên thanh tab.
-	2.	Chọn profile Ubuntu WSL vừa tạo để mở terminal.
-
 ***
 
-### Bước 4 - Khởi tạo Ubuntu lần đầu
+### Bước 3 - Khởi tạo Ubuntu lần đầu
 
 1. Mở **Tabby** (nếu muốn gõ được Tiếng Việt) hoăc mở **Ubuntu 24.04** với quyền **Administrator** từ **Start Menu**.
 2. Chờ vài phút để hệ thống giải nén (chỉ xảy ra lần đầu).
@@ -129,7 +107,7 @@ Sau đó:
    - khi gõ sẽ không hiển thị ký tự, đây là hành vi bình thường.
 ***
 
-### Bước 5 – Cài toàn bộ môi trường trong Ubuntu
+### Bước 4 – Cài toàn bộ môi trường trong Ubuntu
 
 Mở Ubuntu terminal và chạy tuần tự các bước sau:
 
@@ -170,7 +148,7 @@ pip3 install --break-system-packages markitdown[all] Pillow openpyxl
 
 **Cài đặt Duckmind**
 ```bash
-sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
+sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
 **Kiểm tra cài đặt**
@@ -223,7 +201,7 @@ pip3 install --break-system-packages markitdown[all] Pillow openpyxl
 
 ### Bước 5 – Cài DuckMind
 ```bash
-sudo npm install -g @duckmind/duckmind docx xlsx pptxgenjs
+sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
 ### Bước 6 – Kiểm tra hoàn tất
@@ -287,7 +265,7 @@ pip3 install markitdown[all] Pillow openpyxl
 
 ### Bước 6 – Cài đặt DuckMind
 ```bash
-npm install -g @duckmind/duckmind docx xlsx pptxgenjs
+npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
 ***
