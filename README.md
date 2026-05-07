@@ -292,7 +292,7 @@ CLI sẽ khởi động vào chế độ tương tác.
 
 Trong CLI, gõ:
 ```bash
-/connect
+/login
 ```
 Chọn **provider** DuckMind từ danh sách hiển thị
 
