@@ -281,7 +281,7 @@ duckmind --version
 # Bắt đầu sử dụng DuckMind CLI
 
 Sau khi cài đặt, mở terminal và chạy:
-```basháh
+```bash
 dm
 ```
 CLI sẽ khởi động vào chế độ tương tác.
