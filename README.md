@@ -1,122 +1,124 @@
 # DuckMind
 
-**DuckMind** là nền tảng AI agentic giúp chuyển từ việc "nhận câu trả lời" sang **tự động thực thi công việc thực tế**.  
-Thay vì chỉ trò chuyện với AI, DuckMind cho phép AI **truy cập dữ liệu, lập kế hoạch và thực hiện các nhiệm vụ nhiều bước**, giúp người dùng giao việc và quay lại khi công việc đã hoàn thành.
+**DuckMind** is an agentic AI platform that shifts you from *getting answers* to **actually getting things done**.  
+Instead of just chatting with AI, DuckMind lets the agent **access data, plan, and execute multi-step tasks** — so you can hand off work and come back when it's finished.
 
-DuckMind được thiết kế như một **AI coworker** chạy trên máy của bạn, có thể xử lý các nhiệm vụ phức tạp, tự chia nhỏ công việc và thực hiện tuần tự cho đến khi đạt được kết quả.
-
----
-
-# Từ câu trả lời đến hành động
-
-DuckMind không chỉ trả lời câu hỏi.  
-Nó giúp **thực hiện công việc**.
-
-Bạn chỉ cần mô tả mục tiêu. DuckMind sẽ:
-
-- phân tích nhiệm vụ
-- chia thành các bước
-- thực thi từng bước
-- cập nhật tiến độ
-- tạo ra kết quả cuối cùng
-
-Bạn có thể theo dõi quá trình theo thời gian thực hoặc giao việc và quay lại sau.
+DuckMind is designed as an **AI coworker** that runs on your machine. It handles complex tasks end-to-end: breaking them down, executing each step in sequence, and delivering real output.
 
 ---
 
-# Cách DuckMind hoạt động
+# From Answers to Action
 
-DuckMind sử dụng mô hình **agentic workflow**.
+DuckMind doesn't just answer questions.  
+It **does the work**.
 
-1. Hiểu mục tiêu của người dùng  
-2. Phân rã thành các bước nhỏ  
-3. Lập kế hoạch thực thi  
-4. Truy cập dữ liệu cần thiết  
-5. Thực hiện từng bước  
-6. Tổng hợp kết quả cuối cùng  
+You describe the goal. DuckMind will:
 
-Trong quá trình đó DuckMind có thể:
+- analyze the task
+- break it into steps
+- execute each step
+- report progress
+- deliver the final result
 
-- đọc file
-- phân tích dữ liệu
-- viết code
-- tạo báo cáo
-- tạo slide
-- tổng hợp thông tin từ nhiều nguồn
+You can watch it run in real time — or hand it off and come back later.
 
 ---
 
-# Tự động hóa công việc lặp lại
+# How DuckMind Works
 
-DuckMind đặc biệt hữu ích với các nhiệm vụ tốn thời gian.
+DuckMind runs on an **agentic workflow** model.
 
-Bạn có thể cấu hình một nhiệm vụ để chạy:
+1. Understand the user's goal
+2. Decompose it into subtasks
+3. Plan the execution
+4. Fetch the required data
+5. Execute each step
+6. Synthesize the final output
 
-- hàng ngày
-- hàng tuần
-- hàng tháng
+Along the way, DuckMind can:
 
-Ví dụ:
-
-- tổng hợp báo cáo mỗi sáng
-- phân tích dữ liệu định kỳ
-- tổng hợp phản hồi khách hàng
-- tạo dashboard hoặc slide tự động
+- read files
+- analyze data
+- write code
+- generate reports
+- build slide decks
+- aggregate information from multiple sources
 
 ---
 
-# Hướng dẫn cài đặt DuckMind
+# Automate Repetitive Work
+
+DuckMind shines on time-consuming, recurring tasks.
+
+You can schedule a task to run:
+
+- daily
+- weekly
+- monthly
+
+Examples:
+
+- compile a morning briefing report
+- run periodic data analysis
+- aggregate customer feedback
+- auto-generate dashboards or presentations
+
+---
+
+# Installation
 
 ## 🪟 Windows 11 (WSL + Ubuntu)
 
-DuckMind chạy ổn định nhất trên Linux, vì vậy trên Windows cần cài WSL và Ubuntu trước.
+DuckMind runs best on Linux. On Windows, install WSL and Ubuntu first.
 
-### Bước 1 – Cài WSL và Ubuntu
+### Step 1 — Install WSL and Ubuntu
 
-Mở **PowerShell** hoặc **Windows Terminal** với quyền **Administrator** rồi chạy:
+Open **PowerShell** or **Windows Terminal** as **Administrator** and run:
 
 ```powershell
 wsl --install
 ```
 
-Lệnh này sẽ tự động:
-- Bật Windows Subsystem for Linux
-- Bật Virtual Machine Platform
-- Cài kernel WSL2
-- Cài Ubuntu mới nhất (thường là Ubuntu 24.04 LTS)
+This command will automatically:
+- Enable Windows Subsystem for Linux
+- Enable the Virtual Machine Platform
+- Install the WSL2 kernel
+- Install the latest Ubuntu (typically Ubuntu 24.04 LTS)
 
-Sau khi chạy xong, **khởi động lại máy**.
+Once complete, **restart your machine**.
 
-### Bước 2 - Cài Ubuntu 24.04 từ Microsoft Store
-1. Mở **Microsoft Store** (tìm trong Start Menu).
-2. Tìm **Ubuntu 24.04**.
-3. Chọn **Ubuntu 24.04.1 LTS** rồi bấm **Get** hoặc **Install**.
-4. Chờ tải xong (khoảng vài trăm MB).
+### Step 2 — Install Ubuntu 24.04 from the Microsoft Store
 
-***
+1. Open **Microsoft Store** (search in Start Menu).
+2. Search for **Ubuntu 24.04**.
+3. Select **Ubuntu 24.04.1 LTS** and click **Get** or **Install**.
+4. Wait for the download to finish (a few hundred MB).
 
-### Bước 3 - Khởi tạo Ubuntu lần đầu
+---
 
-1. Mở **Tabby** (nếu muốn gõ được Tiếng Việt) hoăc mở **Ubuntu 24.04** với quyền **Administrator** từ **Start Menu**.
-2. Chờ vài phút để hệ thống giải nén (chỉ xảy ra lần đầu).
-3. Nhập **UNIX username**  
-   - dùng chữ thường  
-   - không dấu  
-   - không khoảng trắng
-4. Nhập **password**  
-   - khi gõ sẽ không hiển thị ký tự, đây là hành vi bình thường.
-***
+### Step 3 — Initialize Ubuntu for the First Time
 
-### Bước 4 – Cài toàn bộ môi trường trong Ubuntu
+1. Open **Tabby** (recommended for Unicode/Vietnamese input) or launch **Ubuntu 24.04** as **Administrator** from the Start Menu.
+2. Wait a few minutes for the initial decompression (first launch only).
+3. Set a **UNIX username**
+   - lowercase only
+   - no accents
+   - no spaces
+4. Set a **password**
+   - characters will not appear as you type — this is expected behavior.
 
-Mở Ubuntu terminal và chạy tuần tự các bước sau:
+---
 
-**Cập nhật hệ thống**
+### Step 4 — Set Up the Environment Inside Ubuntu
+
+Open the Ubuntu terminal and run the following in order:
+
+**Update the system**
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-**Cài các gói hệ thống**
+**Install system packages**
 ```bash
 sudo apt install -y \
   git \
@@ -128,30 +130,29 @@ sudo apt install -y \
   curl
 ```
 
-**Cài Node.js 22 LTS**
+**Install Node.js 22 LTS**
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-Kiểm tra:
+Verify:
 ```bash
 node -v
 npm -v
 ```
 
-**Cài các thư viện Python**
+**Install Python packages**
 ```bash
 pip3 install --break-system-packages markitdown[all] Pillow openpyxl
 ```
 
-
-**Cài đặt Duckmind**
+**Install DuckMind**
 ```bash
 sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
-**Kiểm tra cài đặt**
+**Verify installation**
 ```bash
 git --version
 python3 --version
@@ -159,18 +160,18 @@ node -v && npm -v
 dm --version
 ```
 
-***
+---
 
 ## 🐧 Linux Ubuntu
 
-Trên Ubuntu có thể cài trực tiếp mà không cần WSL.
+On Ubuntu, you can install DuckMind directly without WSL.
 
-### Bước 1 – Cập nhật hệ thống
+### Step 1 — Update the system
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-### Bước 2 – Cài các gói hệ thống
+### Step 2 — Install system packages
 ```bash
 sudo apt install -y \
   git \
@@ -182,29 +183,29 @@ sudo apt install -y \
   curl
 ```
 
-### Bước 3 – Cài Node.js 22 LTS
+### Step 3 — Install Node.js 22 LTS
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-Kiểm tra:
+Verify:
 ```bash
 node -v
 npm -v
 ```
 
-### Bước 4 – Cài Python packages
+### Step 4 — Install Python packages
 ```bash
 pip3 install --break-system-packages markitdown[all] Pillow openpyxl
 ```
 
-### Bước 5 – Cài DuckMind
+### Step 5 — Install DuckMind
 ```bash
 sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
-### Bước 6 – Kiểm tra hoàn tất
+### Step 6 — Verify installation
 ```bash
 git --version
 python3 --version
@@ -212,65 +213,65 @@ node -v && npm -v
 duckmind --version
 ```
 
-***
+---
 
 ## 🍎 macOS
 
-### Bước 1 – Cài Homebrew
+### Step 1 — Install Homebrew
 
-Nếu chưa có Homebrew:
+If Homebrew is not already installed:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Nếu dùng **Apple Silicon (M1/M2/M3/M4)**, thêm PATH sau khi cài:
+If you're on **Apple Silicon (M1/M2/M3/M4)**, add Homebrew to your PATH after installation:
 ```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-***
+---
 
-### Bước 2 – Cài Git, Python và Node.js
+### Step 2 — Install Git, Python, and Node.js
 ```bash
 brew update
 brew install git python node
 ```
 
-***
+---
 
-### Bước 3 – Cài Xcode Command Line Tools
+### Step 3 — Install Xcode Command Line Tools
 ```bash
 xcode-select --install
 ```
 
-> Một cửa sổ cài đặt sẽ hiện ra, bấm **Install** và chờ hoàn tất.
+> An installation dialog will appear. Click **Install** and wait for it to complete.
 
-***
+---
 
-### Bước 4 – Cài các công cụ hệ thống
+### Step 4 — Install system utilities
 ```bash
 brew install poppler coreutils
 brew install --cask libreoffice
 ```
 
-***
+---
 
-### Bước 5 – Cài Python packages
+### Step 5 — Install Python packages
 ```bash
 pip3 install markitdown[all] Pillow openpyxl
 ```
 
-***
+---
 
-### Bước 6 – Cài đặt DuckMind
+### Step 6 — Install DuckMind
 ```bash
 npm install -g @duckmind/dm docx xlsx pptxgenjs
 ```
 
-***
+---
 
-### Bước 7 – Kiểm tra hoàn tất
+### Step 7 — Verify installation
 ```bash
 git --version
 python3 --version
@@ -278,45 +279,43 @@ node -v && npm -v
 duckmind --version
 ```
 
-# Bắt đầu sử dụng DuckMind CLI
+---
 
-Sau khi cài đặt, mở terminal và chạy:
+# Getting Started with the DuckMind CLI
+
+After installation, open a terminal and run:
 ```bash
 dm
 ```
-CLI sẽ khởi động vào chế độ tương tác.
+The CLI will start in interactive mode.
 
 ---
 
-### Kết nối Model
+### Connect a Model
 
-Trong CLI, gõ:
+Inside the CLI, type:
 ```bash
 /login
 ```
-Chọn **provider** DuckMind từ danh sách hiển thị
+Select the **DuckMind** provider from the list.
 
-### Nhập API Key
+### Enter Your API Key
 
-Sau khi chọn provider, CLI sẽ yêu cầu:
+After selecting a provider, the CLI will prompt:
 ```bash
 Enter API key: sk-xxxx
 ```
-Dán API key của bạn và nhấn Enter.
+Paste your API key and press Enter.
 
+### Select a Mode
 
-### Chọn Model
+DuckMind offers four modes:
 
-DuckMind có 4 chế độ:
-Free
-Lite
-Smart
-Deep
+| Mode  | Description |
+|-------|-------------|
+| Free  | Limited access |
+| Lite  | Fast, token-efficient |
+| Smart | Fast and capable — suitable for most tasks |
+| Deep  | Deep reasoning — for complex, multi-step problems |
 
-- **Lite**: nhanh,tiết kiệm tokens.
-- **Smart**: nhanh, thông minh, phù hợp cho hầu hết tác vụ  
-- **Deep**: suy luận sâu, dùng cho nhiệm vụ phức tạp
-
-**Khuyến nghị:**
-
-Ưu tiên chọn Smart. Chỉ dùng Deep khi cần reasoning sâu.
+**Recommendation:** Default to **Smart**. Switch to **Deep** only when the task demands intensive reasoning.
