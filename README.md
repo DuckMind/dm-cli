@@ -210,7 +210,7 @@ sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
 git --version
 python3 --version
 node -v && npm -v
-duckmind --version
+dm --version
 ```
 
 ---
@@ -276,7 +276,7 @@ npm install -g @duckmind/dm docx xlsx pptxgenjs
 git --version
 python3 --version
 node -v && npm -v
-duckmind --version
+dm --version
 ```
 
 ---
