@@ -144,7 +144,7 @@ npm -v
 
 **Install Python packages**
 ```bash
-pip3 install --break-system-packages markitdown[all] Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl
 ```
 
 **Install DuckMind**
@@ -197,7 +197,7 @@ npm -v
 
 ### Step 4 — Install Python packages
 ```bash
-pip3 install --break-system-packages markitdown[all] Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl
 ```
 
 ### Step 5 — Install DuckMind
@@ -259,7 +259,7 @@ brew install --cask libreoffice
 
 ### Step 5 — Install Python packages
 ```bash
-pip3 install markitdown[all] Pillow openpyxl
+pip3 install markitdown Pillow openpyxl
 ```
 
 ---
