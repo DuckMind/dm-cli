@@ -259,7 +259,7 @@ brew install --cask libreoffice
 
 ### Step 5 — Install Python packages
 ```bash
-pip3 install markitdown Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl
 ```
 
 ---
