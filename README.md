@@ -224,7 +224,7 @@ If Homebrew is not already installed:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-If you're on **Apple Silicon (M1/M2/M3/M4)**, add Homebrew to your PATH after installation:
+If you're on **Apple Silicon (M1/M2/M3/M4/M5)**, add Homebrew to your PATH after installation:
 ```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
