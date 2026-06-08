@@ -144,12 +144,12 @@ npm -v
 
 **Install Python packages**
 ```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
 ```
 
 **Install DuckMind**
 ```bash
-sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
+sudo npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
 ```
 
 **Verify installation**
@@ -197,12 +197,12 @@ npm -v
 
 ### Step 4 — Install Python packages
 ```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
 ```
 
 ### Step 5 — Install DuckMind
 ```bash
-sudo npm install -g @duckmind/dm docx xlsx pptxgenjs
+sudo npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
 ```
 
 ### Step 6 — Verify installation
@@ -259,14 +259,14 @@ brew install --cask libreoffice
 
 ### Step 5 — Install Python packages
 ```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl
+pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
 ```
 
 ---
 
 ### Step 6 — Install DuckMind
 ```bash
-npm install -g @duckmind/dm docx xlsx pptxgenjs
+npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
 ```
 
 ---
