@@ -67,6 +67,44 @@ Examples:
 
 # Installation
 
+## System Requirements
+
+DuckMind runs on the following platforms and configurations:
+
+**Operating system:**
+- macOS 13.0+
+- Windows 10 1809+ or Windows Server 2019+
+- Ubuntu 20.04+
+- Debian 10+
+- Alpine Linux 3.19+
+
+**Hardware:** 4 GB+ RAM, x64 or ARM64 processor
+
+**Network:** Internet connection required. See [network configuration](#network-configuration).
+
+**Shell:** Bash, Zsh, PowerShell, or CMD.
+
+---
+
+## Quick Install
+
+Choose your platform:
+
+| Platform | Command |
+|----------|---------|
+| **Linux / macOS** | `curl -fsSL https://get.duckmind.dev \| bash` |
+| **Windows (PowerShell)** | `irm https://get.duckmind.dev/win \| iex` |
+| **npm (any platform)** | `npm install -g @duckmind/dm` |
+
+After installation, verify with:
+```bash
+dm --version
+```
+
+> For a clean environment or if the quick install fails, follow the full setup instructions for your OS below.
+
+---
+
 ## 🪟 Windows 11 (WSL + Ubuntu)
 
 DuckMind runs best on Linux. On Windows, install WSL and Ubuntu first.
