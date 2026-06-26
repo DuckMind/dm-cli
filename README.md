@@ -80,32 +80,15 @@ DuckMind runs on the following platforms and configurations:
 
 **Hardware:** 4 GB+ RAM, x64 or ARM64 processor
 
-**Network:** Internet connection required.
+**Network:** Internet connection required. See [network configuration](#network-configuration).
 
 **Shell:** Bash, Zsh, PowerShell, or CMD.
 
 ---
 
-## Quick Install
-
-Choose your platform:
-
-| Platform | Command |
-|----------|---------|
-| **macOS / Linux / WSL** | `curl -fsSL https://get.duckmind.dev \| bash` |
-
-After installation, verify with:
-```bash
-dm --version
-```
-
-> For a clean environment or if the quick install fails, follow the full setup instructions for your OS below.
-
----
-
 ## 🪟 Windows 11 (WSL + Ubuntu)
 
-DuckMind runs best on Linux. On Windows, install WSL and Ubuntu first.
+DuckMind runs inside WSL (Windows Subsystem for Linux). Complete the following steps to set up WSL and Ubuntu, then use the Quick Install above.
 
 ### Step 1 — Install WSL and Ubuntu
 
@@ -130,8 +113,6 @@ Once complete, **restart your machine**.
 3. Select **Ubuntu 24.04.1 LTS** and click **Get** or **Install**.
 4. Wait for the download to finish (a few hundred MB).
 
----
-
 ### Step 3 — Initialize Ubuntu for the First Time
 
 1. Open **Tabby** (recommended for Unicode/Vietnamese input) or launch **Ubuntu 24.04** as **Administrator** from the Start Menu.
@@ -143,56 +124,17 @@ Once complete, **restart your machine**.
 4. Set a **password**
    - characters will not appear as you type — this is expected behavior.
 
----
+### Step 4 — Install DuckMind
 
-### Step 4 — Set Up the Environment Inside Ubuntu
+Inside the Ubuntu terminal, run:
 
-Open the Ubuntu terminal and run the following in order:
-
-**Update the system**
 ```bash
-sudo apt update && sudo apt upgrade -y
-```
-
-**Install system packages**
-```bash
-sudo apt install -y \
-  git \
-  python3 python3-pip python3-venv \
-  build-essential \
-  coreutils \
-  libreoffice \
-  poppler-utils \
-  curl
-```
-
-**Install Node.js 22 LTS**
-```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -fsSL https://get.duckmind.dev | bash
 ```
 
 Verify:
-```bash
-node -v
-npm -v
-```
 
-**Install Python packages**
 ```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
-```
-
-**Install DuckMind**
-```bash
-sudo npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
-```
-
-**Verify installation**
-```bash
-git --version
-python3 --version
-node -v && npm -v
 dm --version
 ```
 
@@ -200,52 +142,13 @@ dm --version
 
 ## 🐧 Linux Ubuntu
 
-On Ubuntu, you can install DuckMind directly without WSL.
-
-### Step 1 — Update the system
 ```bash
-sudo apt update && sudo apt upgrade -y
-```
-
-### Step 2 — Install system packages
-```bash
-sudo apt install -y \
-  git \
-  python3 python3-pip python3-venv \
-  build-essential \
-  coreutils \
-  libreoffice \
-  poppler-utils \
-  curl
-```
-
-### Step 3 — Install Node.js 22 LTS
-```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -fsSL https://get.duckmind.dev | bash
 ```
 
 Verify:
-```bash
-node -v
-npm -v
-```
 
-### Step 4 — Install Python packages
 ```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
-```
-
-### Step 5 — Install DuckMind
-```bash
-sudo npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
-```
-
-### Step 6 — Verify installation
-```bash
-git --version
-python3 --version
-node -v && npm -v
 dm --version
 ```
 
@@ -253,67 +156,17 @@ dm --version
 
 ## 🍎 macOS
 
-### Step 1 — Install Homebrew
-
-If Homebrew is not already installed:
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+curl -fsSL https://get.duckmind.dev | bash
 ```
 
-If you're on **Apple Silicon (M1/M2/M3/M4/M5)**, add Homebrew to your PATH after installation:
+Verify:
+
 ```bash
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
----
-
-### Step 2 — Install Git, Python, and Node.js
-```bash
-brew update
-brew install git python node
-```
-
----
-
-### Step 3 — Install Xcode Command Line Tools
-```bash
-xcode-select --install
-```
-
-> An installation dialog will appear. Click **Install** and wait for it to complete.
-
----
-
-### Step 4 — Install system utilities
-```bash
-brew install poppler coreutils
-brew install --cask libreoffice
-```
-
----
-
-### Step 5 — Install Python packages
-```bash
-pip3 install --break-system-packages markitdown Pillow openpyxl cloakbrowser
-```
-
----
-
-### Step 6 — Install DuckMind
-```bash
-npm install -g @duckmind/dm docx xlsx pptxgenjs cloakbrowser playwright-core
-```
-
----
-
-### Step 7 — Verify installation
-```bash
-git --version
-python3 --version
-node -v && npm -v
 dm --version
 ```
+
+---
 
 ---
 
