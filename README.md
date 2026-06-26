@@ -92,9 +92,7 @@ Choose your platform:
 
 | Platform | Command |
 |----------|---------|
-| **Linux / macOS** | `curl -fsSL https://get.duckmind.dev \| bash` |
-| **Windows (PowerShell)** | `irm https://get.duckmind.dev/win \| iex` |
-| **npm (any platform)** | `npm install -g @duckmind/dm` |
+| **macOS / Linux / WSL** | `curl -fsSL https://get.duckmind.dev \| bash` |
 
 After installation, verify with:
 ```bash
