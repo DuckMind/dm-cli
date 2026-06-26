@@ -89,7 +89,7 @@ DuckMind runs on the following platforms and configurations:
 ## 🍎 macOS
 
 ```bash
-curl -fsSL https://get.duckmind.dev | bash
+curl -fsSL https://duckmind.ai/install.sh | bash
 ```
 
 Verify:
@@ -103,7 +103,7 @@ dm --version
 ## 🐧 Linux Ubuntu
 
 ```bash
-curl -fsSL https://get.duckmind.dev | bash
+curl -fsSL https://duckmind.ai/install.sh | bash
 ```
 
 Verify:
@@ -156,7 +156,7 @@ Once complete, **restart your machine**.
 Inside the Ubuntu terminal, run:
 
 ```bash
-curl -fsSL https://get.duckmind.dev | bash
+curl -fsSL https://duckmind.ai/install.sh | bash
 ```
 
 Verify:
