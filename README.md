@@ -80,7 +80,7 @@ DuckMind runs on the following platforms and configurations:
 
 **Hardware:** 4 GB+ RAM, x64 or ARM64 processor
 
-**Network:** Internet connection required. See [network configuration](#network-configuration).
+**Network:** Internet connection required.
 
 **Shell:** Bash, Zsh, PowerShell, or CMD.
 
