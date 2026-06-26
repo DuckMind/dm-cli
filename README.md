@@ -86,6 +86,33 @@ DuckMind runs on the following platforms and configurations:
 
 ---
 
+## 🍎 macOS
+
+```bash
+curl -fsSL https://get.duckmind.dev | bash
+```
+
+Verify:
+
+```bash
+dm --version
+```
+
+---
+
+## 🐧 Linux Ubuntu
+
+```bash
+curl -fsSL https://get.duckmind.dev | bash
+```
+
+Verify:
+
+```bash
+dm --version
+```
+---
+
 ## 🪟 Windows 11 (WSL + Ubuntu)
 
 DuckMind runs inside WSL (Windows Subsystem for Linux). Complete the following steps to set up WSL and Ubuntu, then use the Quick Install above.
@@ -137,36 +164,6 @@ Verify:
 ```bash
 dm --version
 ```
-
----
-
-## 🐧 Linux Ubuntu
-
-```bash
-curl -fsSL https://get.duckmind.dev | bash
-```
-
-Verify:
-
-```bash
-dm --version
-```
-
----
-
-## 🍎 macOS
-
-```bash
-curl -fsSL https://get.duckmind.dev | bash
-```
-
-Verify:
-
-```bash
-dm --version
-```
-
----
 
 ---
 
